@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1120px;
+  margin: auto;
+  padding: 0 2rem;
+  height: calc(100vh - 5rem);
+
+  .welcomeText {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 4.5rem;
+
+    span {
+      color: var(--cyan-500);
+    }
+
+    margin-top: 2.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+
+    span {
+      color: var(--cyan-500);
+      font-weight: 700;
+    }
+
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+  }
+}

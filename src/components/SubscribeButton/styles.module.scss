@@ -1,0 +1,15 @@
+.container {
+  background: var(--yellow-500);
+  color: var(--gray-900);
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding: 1.25rem 4rem;
+  border-radius: 2rem;
+  border: none;
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
