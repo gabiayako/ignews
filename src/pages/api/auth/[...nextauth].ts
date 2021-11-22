@@ -13,6 +13,7 @@ export default NextAuth({
   ],
   callbacks: {
     async signIn(user, account, profile) {
+      console.log('\n\n\nuser', user, '\n\n\n');
       try {
         await fauna.query(
           q.If(
