@@ -76,7 +76,6 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       }
     }
 
-    console.log('passou no webhooks');
     res.status(200).json({ received: true });
   } else {
     res.setHeader('Allow', 'POST');

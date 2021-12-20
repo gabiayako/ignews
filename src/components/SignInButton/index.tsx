@@ -5,7 +5,6 @@ import { signIn, signOut, useSession } from 'next-auth/client';
 
 export const SignInButton = () => {
   const [session] = useSession();
-  console.log('session', session);
 
   return session ? (
     <button className={styles.container} onClick={() => signOut()}>
